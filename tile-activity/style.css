@@ -23,13 +23,6 @@ h1 {
 img {
   max-height: 250px;
   max-width: 250px;
-  /* Make sure images are responsive with Bootstrap */
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px; /* Added border radius for rounded corners */
 }
 
 /* Optional decorative border for each tile */
@@ -48,28 +41,9 @@ img {
   color: #444;
 }
 
-/* Add a subtle zoom effect on image hover for a nice touch */
-img:hover {
-  transform: scale(1.04);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
 /* 💡 Optional Enhancements:
    - Try adding a hover effect with transform and box-shadow
    - Use border-radius for rounded image corners
    - Combine with Bootstrap utilities like p-3, mb-4, text-center
    - Ask AI: “Add a subtle zoom effect on image hover”
 */
-
-.horizontal-scroll {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  gap: 16px;
-  padding-bottom: 10px;
-}
-
-.horizontal-scroll > div {
-  flex-shrink: 0;
-}
