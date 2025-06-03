@@ -47,3 +47,18 @@ img {
    - Combine with Bootstrap utilities like p-3, mb-4, text-center
    - Ask AI: “Add a subtle zoom effect on image hover”
 */
+
+/* Enhance tile visuals */
+img {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-radius: 8px;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.d-flex.justify-content-center {
+  padding: 1rem 0;
+}
